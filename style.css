@@ -1,9 +1,7 @@
 /*
-Theme Name: Custom Theme
+Theme Name: Cutest Things
 Author: MB
-Description: Custome theme made with bootstrap.
-Version: 1.0
-Tags: custom
+Description: Custom theme made with bootstrap.
 */
 
 #page {
@@ -76,21 +74,21 @@ Tags: custom
 }
 
 .fashion {
-    background-image: url("images/fashion.png");
+    background-image: url("fashion.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .baby {
-    background-image: url("images/baby.jpg");
+    background-image: url("baby.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .handcrafted {
-    background-image: url("images/handcrafted.jpg");
+    background-image: url("handcrafted.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
