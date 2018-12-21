@@ -1,0 +1,114 @@
+#page {
+    text-align: center;
+    color: #262626;
+}
+
+#things {
+    color: #ff99a0;
+}
+
+#header {
+    padding-top: 4%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+#header a {
+    color: #262626;
+    text-decoration: none;
+}
+
+#header a:hover {
+    text-decoration: none;
+}
+
+#header h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 84px;
+}
+
+#header h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: minmax(180px, auto);
+    grid-auto-flow: dense;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 1rem;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #929796;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.span-2 {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
+.span-3 {
+    grid-column-end: span 3;
+    grid-row-end: span 4;
+}
+
+#navbar {
+    padding-top: 2%;
+    border-bottom: 2px solid #e6e6e6;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    background-color: #ffffff;
+    
+}
+
+#page-links {
+    color: #4de68a;
+    
+}
+
+#page-links:hover {
+    color: #ff99a0;
+    text-decoration: none;
+}
+
+#current-page-link {
+    color: #ff99a0;
+}
+
+.footer {
+    background-color: #e6e6e6;
+    width: 100%;
+}
+
+.footer p {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin: 1% 0% 0% 0%;
+}
+
+.footer a:hover {
+    color: #ff99a0;
+    text-decoration: none;
+}
+
+.fa {
+    color: #262626;
+    margin: 2% 1% 1% 1%;
+}
+
+#footer-icons {
+    margin-left: 45%;
+}

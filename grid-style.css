@@ -1,0 +1,79 @@
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: minmax(180px, auto);
+    grid-auto-flow: dense;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #929796;
+    background-color: #333;
+    border-radius: 5px;
+    &:nth-child(odd) {
+        background-color: #424242;
+    }
+}
+
+.span-2 {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
+.span-3 {
+    grid-column-end: span 3;
+    grid-row-end: span 4;
+}
+
+#page {
+    text-align:center;
+    color: #262626;
+}
+
+#things {
+    color: #ff99a0;
+}
+
+#header {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+}
+
+#header h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 84px;
+}
+
+#header h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+
+
+.grid-item {
+    padding: 1rem;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #929796;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.span-2 {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
+.span-3 {
+    grid-column-end: span 3;
+    grid-row-end: span 4;
+}
